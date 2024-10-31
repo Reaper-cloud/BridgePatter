@@ -1,0 +1,9 @@
+﻿<Window x:Class="NotificationSystem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Notification System" Height="200" Width="300">
+    <StackPanel Margin="20">
+        <Button Name="EmailButton" Click="EmailButton_Click">Send Email Notification</Button>
+        <Button Name="SmsButton" Click="SmsButton_Click">Send SMS Notification</Button>
+    </StackPanel>
+</Window>
